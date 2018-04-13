@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Titanes - JFlex</title>
+    <link rel="stylesheet" th:href="@{/css/general.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/menu.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/footer.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/layouts.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/buttons.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/color-rows.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/animations.css}" type="text/css"/>
+    <script th:src="@{/js/jquery-3.2.1.min.js}"></script>
+    <script th:src="@{/js/jflex.js}"></script>
+</head>
+<body>
+    <div class="menu">
+        <h1>Titanes - JFlex</h1>
+    </div>
+    <div id="content">
+        <div>
+            <h1>WHEELS</h1>
+            <h3>Propuesta</h3>
+            <p>
+                Dado las necesidades y demanda por nuevas soluciones informáticas, sabemos que es una realidad la importancia de estimular el gusto por las ciencias de la computación a las nuevas generaciones.
+                Bajo esta realidad, estamos proponiendo un nuevo lenguaje programado que facilite el aprendizaje de los conceptos básicos de la programación y la planificación de soluciones.
+                A este lo llamamos Wheels.
+            </p>
+            <p>
+                Wheels es un lenguaje orientado a objetos, cuyo objetivo es estimular un rápido aprendizaje de los conceptos básicos de la programación y promover la buena práctica de planificar antes de programar. Además, de enseñar léxico básico del idioma Inglés.
+            </p>
+            <p>
+                Wheels hace referencia a las llantas entrenadoras de las bicicletas. El concepto detrás de estas ruedas es simplemente el de ayudar a los niños a aprender a montar bicicletas. Al igual que los ruedines, nuestra propuesta funciona como una solución para estimular el aprendizaje de los conceptos básicos de la programación.
+            </p>
+            <p>
+                Dado que todos los lenguajes al fin y al cabo tienden a funcionar de una forma similar, a pesar de usar diferentes palabras claves y formas de definir funciones y estructuras, nos interesó buscar una solución que se pudiera aplicar para todos ellos. Por ende, decidimos usar una sintaxis parecida a pseudo código. A continuación mostramos un ejemplo de lo que sería una declaración y llamado de una función.
+            </p>
+            <p>
+                También, dado que una parte importante de la programación es la planificación, todos nuestros objetos (clases), requieren de una interfaz, donde además de declarar los métodos utilizados, se definen las variables globales que se van a utilizar.
+            </p>
+        </div>
+        <h1>Análisis Léxico</h1>
+        <form class="input-form">
+            <label>Código para analizar<font>*</font></label>
+            <div class="full-width">
+                <textarea id="input" rows="15" cols="1"></textarea>
+            </div>
+            <div class="full-width">
+                <button type="button" class="green small align-right submit-button">Analizar</button>
+            </div>
+        </form>
+        <div class="result color-container">
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Profesor: Lara Petitdemange Adrián, Dr.</h3>
+        <h3>
+            Proyecto: Etapa II
+            I Semestre 2018
+        </h3>
+        <ul>
+            <li>B60156 - Hannia Aguilar Salas</li>
+            <li>A82019 - Alain Cruz Casanova</li>
+            <li>B32135 - Jefferson Cose Toruño</li>
+            <li>B67839 - Gerald Vindas Aguilar</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.menu {
+    height: 100px;
+    background-color: var(--color-black);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.menu h1 {
+    color: var(--color-white);
+}

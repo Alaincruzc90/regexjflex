@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS for layout sizes */
+
+.full-width {
+    width: 100%;
+}
+
+.two-thirds-width {
+    width: 66%;
+}
+
+.half-width {
+    width: 49%;
+}
+
+.third-width {
+    width: 32%;
+}
+
+.quarter-width {
+    width: 24%;
+}
+
+.full-width, .half-width, .third-width, .quarter-width {
+    display: inline-block;
+}
+
+.full-width div, .half-width div, .third-width div, .quarter-width div {
+    display: inline-block;
+}
+
+@media screen and (max-width: 650px) {
+    .full-width, .half-width, .third-width, .quarter-width, .two-thirds-width {width: 100% !important;}
+}

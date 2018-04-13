@@ -1,0 +1,11 @@
+.footer {
+    height: auto;
+    padding: 1.5rem;
+    background-color: var(--color-grey);
+    text-align: center;
+}
+
+.footer li {
+    color: var(--color-black);
+    list-style: none;
+}
